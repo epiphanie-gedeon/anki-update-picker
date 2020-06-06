@@ -1,0 +1,4 @@
+#! /bin/sh
+rm update_picker.zip
+zip -r update_picker.zip config.* *.ui *.sh *.py *.css *.js web  LICENSE *.md zipping user_files --exclude \*~ \*zip ankiweb
+
